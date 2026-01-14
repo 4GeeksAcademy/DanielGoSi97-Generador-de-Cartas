@@ -16,16 +16,30 @@
   </head>
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="container-fluid text-center card bg-success" style="width: 250px; height: 350px; border-radius: 15px;">
+      <div>
+        <button id="btnCambiar" class="m-2">Cambiar carta</button>
+      </div>
+      <div class = 'card bg-white justify-content-center mx-auto' style="width: 200px; height: 275px; border-radius: 15px;">
+
+        <div id="colorCardHTML">
+
+          <div id= "upSimbol" class="fs-2 position-absolute" style="top: 10px; left: 15px;">
+            <p>♦</p>
+          </div>        
+          
+          <div id= "valueCardNumber" class="fs-1 fw-bold">
+            <p>K</p>
+          </div>
+
+          <div id= "downSimbol" class="fs-2 position-absolute" style="bottom: 10px; right: 15px;">
+            <p>♦</p>
+          </div>  
+
+        </div>
+
+
+      </div>
       </div>
     </div>
 
